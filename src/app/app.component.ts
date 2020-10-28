@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test-project';
+  serverElement = [{type:'Server', name: 'lol', contant: 'this lol server'}]
 }

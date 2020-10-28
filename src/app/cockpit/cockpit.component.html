@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-12">
+     <p>Add new server!!</p>
+     <label for="serverName">Server Name:</label>
+     <input type="text" class="form-control" [(ngModel)]=" newServerName ">
+     <label for="severContent">Server Content:</label>
+     <input type="text" class="form-control" [(ngModel)] = " serverContent " >
+    </div>
+ </div>
+ <hr>
+ <div class="row d-flex justify-content-around">
+     <div class="col-4 d-flex justify-content-around">
+         <button class="btn btn-success" (click) = "addServer()">add Server</button>
+         <button class="btn btn-primary" (click) = "addBlueprint()">add content</button>
+     </div>

@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">{{ element.name }}</div>
+        <p>
+            <strong *ngIf=" checkType() " style="color: red;">{{ element.contant }}</strong>
+            <em *ngIf= " !checkType() ">{{ element.contant }} </em>
+        </p>
+    </div>
+</div>
